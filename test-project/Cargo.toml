@@ -4,6 +4,8 @@ name = "testp"
 version = "0.0.1"
 authors = ["Thomas Jespersen <laumann.thomas@gmail.com>"]
 
+[dependencies]
+dep = {path = "dep"}
 
-[dev-dependencies.compiletest_rs]
-path = ".."
+[dev-dependencies]
+compiletest_rs = {path = ".."}
